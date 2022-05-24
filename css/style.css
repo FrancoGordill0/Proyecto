@@ -1,0 +1,470 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box
+}
+
+/* comienza el header */
+
+.menu {
+    list-style-type: none;
+    padding: 3px;
+    background-color: #00000033;
+}
+
+li {
+    margin: 2px 2px;
+    border-radius: 6px;
+    border: solid 2px rgb(0, 0, 0);
+    padding: 3px;
+    background-color: wheat;
+}
+
+.head {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.login {
+    text-align: center;
+    font-family: 'Roboto Flex';
+    font-weight: 500;
+    margin-bottom: 5px;
+}
+
+.inputlog{
+    width: 120px;
+    border-radius: 5px;
+    border-color: #000000af;
+    background-color: #0c0c0c33;
+    padding: 4px;
+}
+
+.botonlog{
+    background-color: #494946b9;
+    border: none;
+    margin-top: 7px;
+    padding: 5px 17px;
+    border-radius: 5px;
+    color: #ffffeb;
+}
+
+.logo1 {
+    width: 300%;
+}
+
+ul {
+    font-family: 'Roboto Flex';
+    font-weight: bold;
+    text-align: center;
+}
+
+.img {
+    width: 300px;
+    border-radius: 20px;
+}
+
+.imglogo {
+    width: 150px;
+}
+
+/* -------------------- */
+
+
+/* elementos body */
+
+body {
+    background-image: url(https://img.freepik.com/foto-gratis/viejo-papel-vintage-envejecido-fondo-o-textura_34266-532.jpg?w=2000);
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+
+h1 {
+    font-family: 'Roboto flex';
+    text-decoration: underline;
+    text-align: center;
+    font-size: 35px;
+    margin-top: 15px;
+    margin-bottom: 30px;
+}
+
+.titulo2 {
+    font-family: 'Roboto flex';
+    margin: 10px;
+    text-decoration: underline;
+}
+
+h2 {
+    font-family: 'Roboto';
+    text-decoration: underline;
+    margin: 10px;
+}
+
+p {
+    font-family: 'Roboto flex';
+    font-style: italic;
+    margin: 8px;
+}
+
+.titgaleria {
+    font-family: 'Roboto';
+    margin: 20px;
+    font-weight: bold;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.guitarra-venta {
+    display: grid;
+    grid-template-columns: auto, auto, auto;
+}
+
+.producto {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+h4 {
+    font-size: 18px;
+    font-family: 'Roboto Flex';
+    margin: 20px 10px;
+}
+
+/* -------------------- */
+
+
+/*elementos footer */
+
+footer {
+    font-family: 'Roboto';
+    background: rgb(0,0,0);
+    background: linear-gradient(90deg, rgba(0,0,0,0.9780287114845938) 8%, rgba(233,208,143,1) 67%, rgba(182,160,103,0.8995973389355743) 100%);
+    padding: 30px;
+    margin-top: 50px;
+}
+
+footer p {
+    text-align: right;
+    font-weight: bolder;
+    margin: auto;
+}
+
+.redes {
+    text-align: right;
+}
+
+/* ----------------- */
+
+
+/* seccion sucursales */
+
+.padre {
+    margin: 20px;
+    border: solid 2px black;
+    width: 90%;
+}
+
+.sucursal1 {
+    padding: 15px 15px;
+    margin: 10px 10px;
+    background-color: #ffffeb;
+    border-top: 5px solid #b7b7a4;
+}
+
+.sucursal2 {
+    padding: 15px 15px;
+    margin: 10px 10px;
+    background-color: #ffffeb;
+    border-top: 5px solid #b7b7a4;
+}
+
+/* -------------------- */
+
+
+/* seccion galeria */
+
+.img2 {
+    width: 80%;
+    border-radius: 7px;
+}
+
+.videog {
+    display: flex;
+    flex-direction: column;
+}
+
+.videos {
+    width: 80%;
+    border-radius: 7px;
+    margin-bottom: 15px;
+}
+
+
+/* ------------------- */
+
+
+/* seccion conocenos */
+
+.conocenos{
+    width: 85%;
+    padding: 30px 30px;
+    margin: 15px 15px;
+    background-color: #ffffeb;
+    border-top: 5px solid #b7b7a46e;
+}
+
+/* ------------------ */
+
+
+/* seccion contacto */
+
+.contacto {
+    font-family: 'Roboto Flex';
+    font-weight: 500;
+    margin-bottom: 10px;
+    margin-left: 10px;
+}
+
+.formcontacto {
+    display: flex;
+    flex-direction: column;
+    border: 2px solid black;
+    margin: 15px 15px;
+    padding: 15px 15px;
+    width: 50%;
+}
+
+.name {
+    padding: 5px 5px;
+}
+
+.textarea {
+    display: flex;
+    border-radius: 7px;
+    border: 2px solid black;
+    margin: 15px;
+    width: 50%;
+}
+
+.botonlog1 {
+    background-color: #494946b9;
+    border: none;
+    margin: 15px;
+    padding: 5px 17px;
+    border-radius: 5px;
+    color: #ffffeb;
+}
+
+/* ------------------ */
+
+
+@media screen and (min-width: 768px) {
+
+    .menu {
+        display: flex;
+        list-style-type: none;
+        padding: 5px;
+        background-color: #00000033;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .li {
+        margin: 24px 30px;
+        border-radius: 15px;
+        border: solid 2px rgb(0, 0, 0);
+        padding: 15px;
+        background-color: wheat;
+    }
+
+    .guitarra-venta {
+        display: grid;
+        grid-template-columns: auto;
+    }
+
+    .producto {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .img {
+        width: 350px;
+        margin: 2rem;
+    }
+
+    .imglogo {
+        width: 250px;
+        margin: 30px;
+    }
+
+    h1 {
+        font-family: 'Roboto flex';
+        text-decoration: underline;
+        text-align: center;
+        font-size: 35px;
+        margin-top: 15px;
+        margin-bottom: 30px;
+    }
+
+    .titulo2 {
+        font-family: 'Roboto flex';
+        margin: 20px;
+        text-decoration: underline;
+    }
+
+    h2 {
+        font-family: 'Roboto';
+        text-decoration: underline;
+        margin: 15px;
+    }
+
+    p {
+        font-family: 'Roboto flex';
+        font-style: italic;
+        margin: 10px;
+    }
+
+    h4 {
+        font-size: 24px;
+        font-family: 'Roboto Flex';
+        margin-top: 40px;
+    }
+
+    .login {
+        text-align: right;
+        font-family: 'Roboto';
+        margin-bottom: 5px;
+        padding: 10px;
+    }
+
+    .padre {
+        margin: 20px;
+        border: solid 2px black;
+        width: 75%;
+    }
+
+    .sucursal1 {
+        padding: 15px 15px;
+        margin: 20px 20px;
+        background-color: #ffffeb;
+        border-top: 5px solid #b7b7a4;
+        margin-bottom: 50px;
+    }
+
+    .sucursal2 {
+        padding: 15px 15px;
+        margin: 20px 20px;
+        background-color: #ffffeb;
+        border-top: 5px solid #b7b7a4;
+    }
+
+    .img2 {
+        width: 450px;
+        border-radius: 10px;
+    }
+    
+    .videos {
+        width: 400px;
+        height: 300px;
+        border-radius: 10px;
+    }
+
+}
+
+
+@media screen and (min-width: 1024px) {
+    .guitarra-venta {
+        grid-template-columns: auto auto;
+    }
+
+    .imglogo {
+        width: 280px;
+        margin: 30px;
+    }
+
+    .padre {
+        margin: 30px;
+        border: solid 2px black;
+        width: 80%;
+    }
+    
+    .sucursal1 {
+        padding: 20px 20px;
+        margin: 50px 50px;
+        background-color: #ffffeb;
+        border-top: 5px solid #b7b7a4;
+    }
+    
+    .sucursal2 {
+        padding: 20px 20px;
+        margin: 50px 50px;
+        background-color: #ffffeb;
+        border-top: 5px solid #b7b7a4;
+    }
+
+    .img2 {
+        width: 450px;
+        border-radius: 10px;
+    }
+    
+    .videos {
+        width: 400px;
+        height: 300px;
+        border-radius: 10px;
+    }
+
+}
+
+
+
+@media screen and (min-width: 1440px) {
+    .guitarra-venta {
+        grid-template-columns: auto auto auto;
+    }
+
+    .imglogo {
+        width: 300px;
+        margin: 30px;
+    }
+
+    .padre {
+        margin: 30px;
+        border: solid 2px black;
+        width: 90%;
+    }
+    
+    .sucursal1 {
+        padding: 20px 20px;
+        margin: 50px 50px;
+        background-color: #ffffeb;
+        border-top: 5px solid #b7b7a4;
+    }
+    
+    .sucursal2 {
+        padding: 20px 20px;
+        margin: 50px 50px;
+        background-color: #ffffeb;
+        border-top: 5px solid #b7b7a4;
+    }
+
+    .img2 {
+        width: 450px;
+        border-radius: 10px;
+    }
+    
+    .videos {
+        width: 400px;
+        height: 300px;
+        border-radius: 10px;
+    }
+    
+}
