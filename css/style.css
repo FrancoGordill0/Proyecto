@@ -12,6 +12,12 @@
     background-color: #00000033;
 }
 
+ul {
+    font-family: 'Roboto Flex';
+    font-weight: bold;
+    text-align: center;
+}
+
 li {
     margin: 2px 2px;
     border-radius: 6px;
@@ -52,12 +58,6 @@ li {
 
 .logo1 {
     width: 300%;
-}
-
-ul {
-    font-family: 'Roboto Flex';
-    font-weight: bold;
-    text-align: center;
 }
 
 .img {
@@ -190,7 +190,14 @@ footer p {
 
 /* seccion galeria */
 
+.gal{
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
 .img2 {
+    margin: 20px;
     width: 80%;
     border-radius: 7px;
 }
@@ -202,8 +209,10 @@ footer p {
 
 .videos {
     width: 80%;
-    border-radius: 7px;
+    margin: 30px;
+    margin-top: 30px;
     margin-bottom: 15px;
+    border-radius: 7px;
 }
 
 
@@ -267,21 +276,12 @@ footer p {
 
 @media screen and (min-width: 768px) {
 
-    .menu {
+    ul{
         display: flex;
-        list-style-type: none;
-        padding: 5px;
-        background-color: #00000033;
-        justify-content: center;
-        align-items: center;
     }
 
-    .li {
-        margin: 24px 30px;
-        border-radius: 15px;
-        border: solid 2px rgb(0, 0, 0);
-        padding: 15px;
-        background-color: wheat;
+    li {
+        flex: 1;
     }
 
     .guitarra-venta {
@@ -306,45 +306,6 @@ footer p {
         margin: 30px;
     }
 
-    h1 {
-        font-family: 'Roboto flex';
-        text-decoration: underline;
-        text-align: center;
-        font-size: 35px;
-        margin-top: 15px;
-        margin-bottom: 30px;
-    }
-
-    .titulo2 {
-        font-family: 'Roboto flex';
-        margin: 20px;
-        text-decoration: underline;
-    }
-
-    h2 {
-        font-family: 'Roboto';
-        text-decoration: underline;
-        margin: 15px;
-    }
-
-    p {
-        font-family: 'Roboto flex';
-        font-style: italic;
-        margin: 10px;
-    }
-
-    h4 {
-        font-size: 24px;
-        font-family: 'Roboto Flex';
-        margin-top: 40px;
-    }
-
-    .login {
-        text-align: right;
-        font-family: 'Roboto';
-        margin-bottom: 5px;
-        padding: 10px;
-    }
 
     .padre {
         margin: 20px;
@@ -382,13 +343,22 @@ footer p {
 
 
 @media screen and (min-width: 1024px) {
-    .guitarra-venta {
-        grid-template-columns: auto auto;
+
+    ul{
+        display: flex;
+    }
+
+    li {
+        flex: 1;
     }
 
     .imglogo {
-        width: 280px;
+        width: 300px;
         margin: 30px;
+    }
+
+    .guitarra-venta {
+        grid-template-columns: auto auto;
     }
 
     .padre {
@@ -427,6 +397,15 @@ footer p {
 
 
 @media screen and (min-width: 1440px) {
+
+    ul{
+        display: flex;
+    }
+
+    li {
+        flex: 1;
+    }
+    
     .guitarra-venta {
         grid-template-columns: auto auto auto;
     }
