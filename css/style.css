@@ -8,8 +8,8 @@
 
 .menu {
     padding: 4px;
-    /* background-color: #0000001e; */
     background: rgba(212, 196, 153, 0.582);
+    /* background-color: #0000001e; */
     /* background: radial-gradient(circle, rgba(154,141,107,0.9612219887955182) 10%, rgba(241,227,189,0.9612219887955182) 83%); */
 }
 
@@ -63,6 +63,7 @@ li {
     border-color: #000000af;
     background-color: #0c0c0c33;
     padding: 4px;
+    margin-bottom: 5px;
 }
 
 .botonlog{
@@ -78,7 +79,7 @@ li {
     width: 300%;
 }
 
-.img {
+.imgtienda {
     width: 300px;
     border-radius: 20px;
 }
@@ -93,9 +94,6 @@ li {
 /* elementos body */
 
 body {
-    /* background-image: url(https://img.freepik.com/foto-gratis/viejo-papel-vintage-envejecido-fondo-o-textura_34266-532.jpg?w=2000);
-    background-size: cover;
-    background-attachment: fixed; */
     background: rgb(243, 240, 240);
     font-family: 'Roboto flex';
 }
@@ -127,8 +125,9 @@ h2 {
 }
 
 p {
-    font-style: italic;
     margin: 8px;
+    color: black;
+    font-weight:600;
 }
 
 .titgaleria {
@@ -144,6 +143,7 @@ a {
 .guitarra-venta {
     display: grid;
     grid-template-columns: auto, auto, auto;
+    justify-content: space-around;
 }
 
 .producto {
@@ -158,6 +158,15 @@ h4 {
     font-family: 'Roboto Flex';
     margin-top: 60px;
     margin-bottom: 10px;
+}
+
+.card{
+    margin-bottom: 20px;
+}
+
+.boton{
+    text-align: center;
+    margin-top: 20px;
 }
 
 /* -------------------- */
@@ -221,14 +230,15 @@ footer p {
 }
 
 .img2 {
-    margin: 20px;
-    width: 80%;
+    margin: 20px; 
+    width: 80%; 
     border-radius: 7px;
 }
 
 .videog {
-    display: flex;
+    display: grid;
     flex-direction: column;
+    justify-content: center;
 }
 
 .videos {
@@ -237,6 +247,11 @@ footer p {
     margin-top: 30px;
     margin-bottom: 15px;
     border-radius: 7px;
+}
+
+.slide {
+    margin-top: 50px;
+    margin-bottom: 20px;
 }
 
 
@@ -249,8 +264,8 @@ footer p {
     width: 85%;
     padding: 30px 30px;
     margin: 15px 15px;
-    background: rgba(212, 196, 153, 0.582);
-    border-top: 5px solid #b7b7a46e;
+    background: rgba(223, 209, 173, 0.377);
+    border-top: 5px solid #b7b7a4;
 }
 
 /* ------------------ */
@@ -320,7 +335,7 @@ footer p {
         align-items: center;
     }
 
-    .img {
+    .imgtienda {
         width: 350px;
         margin: 2rem;
     }
@@ -407,6 +422,12 @@ footer p {
         border-radius: 10px;
     }
 
+    .videog {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+    }
+
 }
 
 
@@ -455,6 +476,12 @@ footer p {
         width: 400px;
         height: 300px;
         border-radius: 10px;
+    }
+
+    .videog {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
     }
     
 }
