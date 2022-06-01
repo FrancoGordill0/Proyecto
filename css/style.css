@@ -63,6 +63,7 @@ li {
     border-color: #000000af;
     background-color: #0c0c0c33;
     padding: 4px;
+    margin-bottom: 5px;
 }
 
 .botonlog{
@@ -93,9 +94,6 @@ li {
 /* elementos body */
 
 body {
-    /* background-image: url(https://img.freepik.com/foto-gratis/viejo-papel-vintage-envejecido-fondo-o-textura_34266-532.jpg?w=2000);
-    background-size: cover;
-    background-attachment: fixed; */
     background: rgb(243, 240, 240);
     font-family: 'Roboto flex';
 }
@@ -145,6 +143,7 @@ a {
 .guitarra-venta {
     display: grid;
     grid-template-columns: auto, auto, auto;
+    justify-content: space-around;
 }
 
 .producto {
@@ -159,6 +158,15 @@ h4 {
     font-family: 'Roboto Flex';
     margin-top: 60px;
     margin-bottom: 10px;
+}
+
+.card{
+    margin-bottom: 20px;
+}
+
+.boton{
+    text-align: center;
+    margin-top: 20px;
 }
 
 /* -------------------- */
@@ -228,13 +236,13 @@ footer p {
 }
 
 .videog {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
+    display: grid;
+    flex-direction: column;
+    justify-content: center;
 }
 
 .videos {
-    width: 100%;
+    width: 80%;
     margin: 30px;
     margin-top: 30px;
     margin-bottom: 15px;
@@ -242,8 +250,8 @@ footer p {
 }
 
 .slide {
-    margin-top: 10px;
-    height: 70vh;
+    margin-top: 50px;
+    margin-bottom: 20px;
 }
 
 
@@ -414,6 +422,12 @@ footer p {
         border-radius: 10px;
     }
 
+    .videog {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+    }
+
 }
 
 
@@ -462,6 +476,12 @@ footer p {
         width: 400px;
         height: 300px;
         border-radius: 10px;
+    }
+
+    .videog {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
     }
     
 }
