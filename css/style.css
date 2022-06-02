@@ -161,7 +161,7 @@ h4 {
 }
 
 .card{
-    margin-bottom: 20px;
+    margin-top: 35px;
 }
 
 .boton{
@@ -204,13 +204,6 @@ footer p {
 }
 
 .sucursal1 {
-    padding: 15px 15px;
-    margin: 10px 10px;
-    background: rgba(223, 209, 173, 0.377);
-    border-top: 5px solid #b7b7a4;
-}
-
-.sucursal2 {
     padding: 15px 15px;
     margin: 10px 10px;
     background: rgba(223, 209, 173, 0.377);
@@ -302,12 +295,13 @@ footer p {
 }
 
 .botonlog1 {
-    background-color: #494946b9;
-    border: none;
     margin: 15px;
     padding: 5px 17px;
     border-radius: 5px;
-    color: #ffffeb;
+}
+
+.textocont{
+    margin-left: 30px;
 }
 
 /* ------------------ */
@@ -325,7 +319,7 @@ footer p {
 
     .guitarra-venta {
         display: grid;
-        grid-template-columns: auto;
+        grid-template-columns: auto auto;
     }
 
     .producto {
@@ -353,11 +347,6 @@ footer p {
     }
 
     .sucursal1 {
-        padding: 15px 15px;
-        margin: 20px 20px;
-    }
-
-    .sucursal2 {
         padding: 15px 15px;
         margin: 20px 20px;
     }
@@ -405,11 +394,6 @@ footer p {
         padding: 20px 20px;
         margin: 50px 50px;
     }
-    
-    .sucursal2 {
-        padding: 20px 20px;
-        margin: 50px 50px;
-    }
 
     .img2 {
         width: 450px;
@@ -443,7 +427,7 @@ footer p {
     }
     
     .guitarra-venta {
-        grid-template-columns: auto auto auto;
+        grid-template-columns: auto auto auto auto;
     }
 
     .imglogo {
@@ -462,10 +446,6 @@ footer p {
         margin: 50px 50px;
     }
     
-    .sucursal2 {
-        padding: 20px 20px;
-        margin: 50px 50px;
-    }
 
     .img2 {
         width: 450px;
