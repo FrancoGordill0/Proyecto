@@ -169,6 +169,15 @@ h4 {
     margin-top: 20px;
 }
 
+.subrayado:hover {
+    text-decoration: underline;
+    background-color: #ece9e9;
+}
+
+h5:hover{
+    text-decoration: underline;
+}
+
 /* -------------------- */
 
 
