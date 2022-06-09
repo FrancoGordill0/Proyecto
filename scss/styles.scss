@@ -180,6 +180,20 @@ footer {
     }
 }
 
+.padre {
+    margin: 20px;
+    border: solid 2px black;
+    width: 90%;
+
+    .sucursal1 {
+        padding: 15px 15px;
+        margin: 10px 10px;
+        background: rgba(223, 209, 173, 0.377);
+        border-top: 5px solid #b7b7a4;
+    }
+}
+
+
 
 @media screen and (min-width: 768px) {
 
@@ -309,7 +323,7 @@ footer {
     }
 
     .guitarra-venta {
-        grid-template-columns: auto auto auto;
+        grid-template-columns: auto auto auto auto;
     }
 
     .imglogo {

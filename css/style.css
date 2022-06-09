@@ -200,7 +200,7 @@ footer {
     ul li {
       flex: 1; }
   .guitarra-venta {
-    grid-template-columns: auto auto auto; }
+    grid-template-columns: auto auto auto auto; }
   .imglogo {
     width: 300px;
     margin: 30px; }
