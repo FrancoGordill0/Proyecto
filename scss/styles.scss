@@ -146,20 +146,30 @@ body {
         margin-bottom: 10px;
     }
 
-    .card {
-        margin-bottom: 20px;
-
-        .boton {
-            text-align: center;
-            margin-top: 20px;
-        }
-    }
-
     .imgtienda {
         width: 300px;
         border-radius: 20px;
     }
 
+    .subrayado:hover {
+        text-decoration: underline;
+        background-color: #ece9e9;
+    }
+}
+
+.card {
+    margin-top: 35px;
+
+    .boton {
+        text-align: center;
+        margin-top: 20px;
+    }
+
+    
+}
+
+h5:hover {
+    text-decoration: underline;
 }
 
 footer {
