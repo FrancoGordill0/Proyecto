@@ -32,7 +32,7 @@ body {
     }
 
     .logo1 {
-        width: 300%;
+        width: 300%
     }
 
     .imglogo {
@@ -179,7 +179,7 @@ body {
         border: solid 2px black;
         width: 90%;
     }
-    
+
     .sucursal1 {
         padding: 15px 15px;
         margin: 10px 10px;
@@ -187,16 +187,21 @@ body {
         border-top: 5px solid #b7b7a4;
     }
 
-}
+    .conocenos {
+        width: 85%;
+        padding: 30px 30px;
+        margin: 15px 15px;
+        background: rgba(223, 209, 173, 0.377);
+        border-top: 5px solid #b7b7a4;
+    }
 
-
-
-footer {
-    font-family: 'Roboto';
-    background: rgb(154, 141, 107);
-    background: radial-gradient(circle, rgba(154, 141, 107, 0.9612219887955182) 10%, rgba(241, 227, 189, 0.9612219887955182) 83%);
-    padding: 30px;
-    margin-top: 50px;
+    footer {
+        font-family: 'Roboto';
+        background: rgb(154, 141, 107);
+        background: radial-gradient(circle, rgba(154, 141, 107, 0.9612219887955182) 10%, rgba(241, 227, 189, 0.9612219887955182) 83%);
+        padding: 30px;
+        margin-top: 50px;
+    }
 
     p {
         text-align: right;
@@ -207,7 +212,37 @@ footer {
     .redes {
         text-align: right;
     }
+
+    .gal {
+        text-align: center;
+        margin-top: 30px;
+        margin-bottom: 30px;
+        font-size: 30px;
+    }
+
+    .img2 {
+        margin: 20px;
+        width: 80%;
+        border-radius: 7px;
+    }
+
+    .videog {
+        display: grid;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .videos {
+        width: 80%;
+        margin: 30px;
+        margin-top: 30px;
+        margin-bottom: 15px;
+        border-radius: 7px;
+    }
+
 }
+
+
 
 
 
@@ -225,14 +260,15 @@ footer {
     .guitarra-venta {
         display: grid;
         grid-template-columns: auto;
-
-        .producto {
-            display: flex;
-            justify-content: center;
-            flex-direction: column;
-            align-items: center;
-        }
     }
+
+    .producto {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+    }
+
 
     .imgtienda {
         width: 350px;
@@ -249,17 +285,18 @@ footer {
         margin: 20px;
         border: solid 2px black;
         width: 75%;
-
-        .sucursal1 {
-            padding: 15px 15px;
-            margin: 20px 20px;
-        }
-
-        .sucursal2 {
-            padding: 15px 15px;
-            margin: 20px 20px;
-        }
     }
+
+    .sucursal1 {
+        padding: 15px 15px;
+        margin: 20px 20px;
+    }
+
+    .sucursal2 {
+        padding: 15px 15px;
+        margin: 20px 20px;
+    }
+
 
     .img2 {
         width: 450px;
