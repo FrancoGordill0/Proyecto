@@ -32,7 +32,9 @@ body {
     body .head .logo1 {
       width: 300%; }
     body .head .imglogo {
-      width: 150px; }
+      width: 150px;
+      margin: 35px;
+      margin-left: 30px; }
   body .menu {
     padding: 4px;
     background: rgba(212, 196, 153, 0.582); }
