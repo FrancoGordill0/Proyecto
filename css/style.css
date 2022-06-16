@@ -93,8 +93,8 @@ p {
 
 footer {
   font-family: "Roboto";
-  background: #9a8d6b;
-  background: radial-gradient(circle, rgba(154, 141, 107, 0.961222) 10%, rgba(241, 227, 189, 0.961222) 83%);
+  background: #f4eded;
+  background: radial-gradient(circle, rgba(244, 237, 237, 0.2) 0%, #b9b5b5 0%, #676767 100%);
   padding: 30px;
   margin-top: 50px; }
   footer p {
