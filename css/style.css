@@ -58,8 +58,12 @@ p {
 .sucursal1 {
   padding: 15px 15px;
   margin: 10px 10px;
-  background: rgba(223, 209, 173, 0.377);
+  background: rgba(204, 201, 191, 0.589);
   border-top: 5px solid #b7b7a4; }
+
+.subrayado1:hover {
+  text-decoration: underline;
+  background-color: #ece9e9; }
 
 .videog {
   display: flex;
