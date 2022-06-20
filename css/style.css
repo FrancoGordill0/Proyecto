@@ -60,6 +60,8 @@ p {
   margin: 10px 10px;
   background: rgba(204, 201, 191, 0.589);
   border-top: 5px solid #b7b7a4; }
+  .sucursal1 .ubicacion {
+    width: 100%; }
 
 .subrayado1:hover {
   text-decoration: underline;
@@ -75,6 +77,9 @@ p {
     margin-top: 30px;
     margin-bottom: 15px;
     border-radius: 4px; }
+
+.libre {
+  height: 100px; }
 
 .slide {
   margin-top: 50px;
