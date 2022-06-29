@@ -13,6 +13,12 @@
 
 body,
 
+body {
+    display: grid;
+    min-height: 100vh;
+    grid-template-rows: auto 1fr auto;
+}
+
 html {
     background: color(primary);
     font-family: $font;
@@ -31,7 +37,7 @@ h1 {
     text-decoration: underline;
     text-align: center;
     font-size: 35px;
-    margin-top: 15px;
+    margin-top: 30px;
     margin-bottom: 30px;
 }
 
@@ -75,7 +81,7 @@ p {
     justify-content: space-around;
 
     .card {
-        margin-top: 35px;
+        margin-top: 60px;
     }
 
     .boton {
@@ -119,11 +125,6 @@ p {
     }
 }
 
-.libre{
-    height: 100px;
-}
-
-
 .slide {
     margin-top: 50px;
     margin-bottom: 20px;
@@ -143,24 +144,9 @@ p {
 
 footer {
     font-family: $font-title;
-    background: color(foot);
-    background: radial-gradient(circle, rgba(244, 237, 237, 0.2) 0%, rgba(185, 181, 181, 1) 0%, rgba(103, 103, 103, 1) 100%);
-    padding: 30px;
+    padding: 1em 0;
     margin-top: 50px;
-
-
-    p {
-        text-align: right;
-        font-weight: bolder;
-        margin: auto;
-    }
-
-    .redes {
-        text-align: right;
-    }
 }
-
-
 
 
 @media screen and (min-width: 768px) {

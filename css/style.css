@@ -4,6 +4,11 @@
   box-sizing: border-box; }
 
 body,
+body {
+  display: grid;
+  min-height: 100vh;
+  grid-template-rows: auto 1fr auto; }
+
 html {
   background: #f3f0f0;
   font-family: "Roboto Flex"; }
@@ -17,7 +22,7 @@ h1 {
   text-decoration: underline;
   text-align: center;
   font-size: 35px;
-  margin-top: 15px;
+  margin-top: 30px;
   margin-bottom: 30px; }
 
 .titulo-principal {
@@ -48,7 +53,7 @@ p {
   grid-template-columns: auto, auto, auto;
   justify-content: space-around; }
   .guitarra-venta .card {
-    margin-top: 35px; }
+    margin-top: 60px; }
   .guitarra-venta .boton {
     text-align: center;
     margin-top: 20px; }
@@ -78,9 +83,6 @@ p {
     margin-bottom: 15px;
     border-radius: 4px; }
 
-.libre {
-  height: 100px; }
-
 .slide {
   margin-top: 50px;
   margin-bottom: 20px; }
@@ -97,16 +99,8 @@ p {
 
 footer {
   font-family: "Roboto";
-  background: #f4eded;
-  background: radial-gradient(circle, rgba(244, 237, 237, 0.2) 0%, #b9b5b5 0%, #676767 100%);
-  padding: 30px;
+  padding: 1em 0;
   margin-top: 50px; }
-  footer p {
-    text-align: right;
-    font-weight: bolder;
-    margin: auto; }
-  footer .redes {
-    text-align: right; }
 
 @media screen and (min-width: 768px) {
   .guitarra-venta {
